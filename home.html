@@ -44,10 +44,12 @@ products.forEach(product => {
     container.innerHTML += `
     
         <div class="product-detiels">
-            <img src="${product.thumbnail}"  class="prodect-img">
+        <div class="product-imgandheart" >
+            <span class="heart">♡</span>
+            <img src="${product.thumbnail}"  class="prodect-img"></div>
 
           
-            <span class="heart">♡</span>
+            
 
             <div class="descrption">
                 <a href="product.html?id=${product.id}" class="title"><h3 >${product.title}</h3></a>

@@ -40,8 +40,8 @@ body{
 #products{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
+  
+    justify-content: space-between;
 }
 
 .product-detiels{
@@ -77,22 +77,22 @@ body{
 }
 .heart {
     position: absolute;
-    top: 40px;
-    right: 60px;
+  justify-content: flex-start;
     font-size: 24px;
-    
-       /* افتراضي أسود */
+    margin-left: 70%;
     cursor: pointer;
     transition: color 0.3s;
 }
 .heart.red {
-    color: red;     /* لما يتضغط */
+    color: red;     
 }
-
+.product-imgandheart{
+background-color: rgba(250, 245, 245, 0.877);
+}
 .prodect-img{
     width: 100%;
-    background-color: rgba(250, 245, 245, 0.877);
-    border-radius: 20pء;
+    
+    border-radius: 20px;
 }
 .button-inf{
     display: flex;
