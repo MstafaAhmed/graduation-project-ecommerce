@@ -1,0 +1,133 @@
+body {
+    background-color: rgba(0, 0, 0, 0.025);
+    text-transform: capitalize;
+    font-family: 'Outfit', sans-serif;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header h1 {
+    color: #FE8A00;
+    font-size: 32px;
+    margin-left: 10px;
+}
+
+.header span {
+    color: #F61B5A;
+}
+/* Center everything in the page */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* full viewport height */
+    /*background: rgba(0, 0, 0, 0.025);*/
+    background-color: #F5F5F5;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Card styling */
+.beta {
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px; /* limits card width on large screens */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* make form elements full width */
+}
+
+/* Heading & subtitle */
+.alt {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.alt h4 {
+    color: #1A2530;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.alt p {
+    color: #707B81;
+    font-size: 16px;
+}
+
+/* Instruction text */
+.pall {
+    text-align: center;
+    font-size: 18px;
+    color: #212121;
+    margin-bottom: 30px;
+}
+
+/* Form inputs */
+.E, .pass {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.E label, .pass label {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.E input, .pass input {
+    width: 100%; /* fill card width */
+    padding: 12px;
+    border: 0;
+    border-bottom: 2px solid #F89300;
+    background-color: rgba(0,0,0,0.025);
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Checkbox */
+.focas {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.focas input {
+    margin-right: 10px;
+}
+
+/* Button */
+.end button {
+    width: 100%; /* full width button inside card */
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #F61B5A;
+    background: #FFFFFF;
+    border: 2px solid #F61B5A;
+    border-radius: 31.5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.end button:hover {
+    background: #F61B5A;
+    color: #fff;
+}
