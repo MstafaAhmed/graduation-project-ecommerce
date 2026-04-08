@@ -1,15 +1,28 @@
 body{
     margin: 0px 0px 0px 0px;
+    font-family: 'Outfit', sans-serif;
 }
-.logo{
-    color: hsla(40, 94%, 56%, 1);
-    font-size: 32px;
+.header {
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
 }
-.prand-name{
-    margin: -15px;
-    margin-left: 5px;
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header h1 {
+    color: #FE8A00;
+    font-size: 32px;
+    margin-left: 10px;
+}
+
+.header span {
+    color: #F61B5A;
 }
 .intro-banar{
     background-color: hsla(33, 100%, 50%, 1);
